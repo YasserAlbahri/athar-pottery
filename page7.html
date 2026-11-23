@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مجموعة الفخار من أثر تضم أكواب ومزهريات بألوان هادئة مع عرض الأسعار وحاسبة لقيمة القطع">
+    <title>الفخار | أثر للحرف اليدوية</title>
+    <link rel="stylesheet" href="pottery.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">انتقلي إلى المحتوى</a>
+    <div class="announcement">قطع من الطين تضيف دفء للمكان</div>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <a class="brand" href="https://sevcmoav-byte.github.io/-/index.html">
+                <strong>أثر</strong>
+                <span>متجر الحرف اليدوية</span>
+            </a>
+            <nav aria-label="التنقل الرئيسي">
+                <ul>
+                    <li><a href="https://sevcmoav-byte.github.io/-/index.html">الرئيسية</a></li>
+                    <li><a href="https://hamshamad11-tech.github.io/Project-/">من نحن</a></li>
+                    <li><a href="https://reem99-10.github.io/Products/">المنتجات</a></li>
+                    <li><a href="page7.html" class="active" aria-current="page">الفخار</a></li>
+                    <li><a href="https://sevcmoav-byte.github.io/-/prices.html">جدول الأسعار</a></li>
+                    <li><a href="https://tpyh4wrmp9-arch.github.io/-/page5.html">سلة التسوق</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero container" aria-labelledby="page-title">
+            <div class="hero-copy">
+                <p class="eyebrow">مجموعة الفخار</p>
+                <h1 id="page-title">من الطين تبدأ<br><span>حكاية قطعة</span></h1>
+                <p class="hero-description">للفخار جماله الخاص في اللون والملمس<br>هنا تلقين أكواب ومزهريات بألوان هادئة<br>اختاري القطعة اللي تناسب ذوقك وتكمل تفاصيل مكانك</p>
+                <a class="button" href="#collection">اكتشفي المجموعة</a>
+                <a class="quiet-link" href="#price-calculator">احسبي قيمة القطع</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/pottery-hero.jpg" alt="مجموعة من المزهريات الفخارية بألوان طبيعية مختلفة" width="1400" height="1000">
+                <p>ألوان من الطبيعة وملمس له طابعه</p>
+            </div>
+        </section>
+
+        <section class="collection container" id="collection" aria-labelledby="collection-title">
+            <div class="section-heading">
+                <p class="eyebrow">تفاصيل تختارينها على ذوقك</p>
+                <h2 id="collection-title">قطع تضيف للمكان</h2>
+                <p>قارني بين القطع وأسعارها واختاري اللي يعجبك</p>
+            </div>
+            <div class="product-list">
+                <article class="product-card">
+                    <img src="images/cups.jpg" alt="أكواب فخارية بدرجات كريمية مع تفاصيل بلون الطين" width="900" height="1100" loading="lazy">
+                    <div class="product-info">
+                        <p class="product-type">أكواب فخارية</p>
+                        <h3>طقم أكواب بألوان طبيعية</h3>
+                        <p>درجات هادئة وتفاصيل بسيطة تعطي ركنك طابع دافئ</p>
+                        <p class="price">150 <span>ريال</span></p>
+                        <a href="#price-calculator" class="product-link" onclick="chooseProduct('cups')">احسبي سعر القطعة</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="images/vase-cream.jpg" alt="مزهرية فخارية كريمية اللون بعروتين جانبيتين" width="900" height="1100" loading="lazy">
+                    <div class="product-info">
+                        <p class="product-type">مزهريات فخارية</p>
+                        <h3>مزهرية كريمية بعروتين</h3>
+                        <p>شكل ناعم وملمس واضح لقطعة تبرز لحالها أو مع الزهور</p>
+                        <p class="price">220 <span>ريال</span></p>
+                        <a href="#price-calculator" class="product-link" onclick="chooseProduct('vase-cream')">احسبي سعر القطعة</a>
+                    </div>
+                </article>
+                <article class="product-card last-card">
+                    <img src="images/vase-clay.jpg" alt="مزهرية فخارية بلون الطين مع أغصان جافة" width="900" height="1100" loading="lazy">
+                    <div class="product-info">
+                        <p class="product-type">مزهريات فخارية</p>
+                        <h3>مزهرية بلون الطين</h3>
+                        <p>لون ترابي دافئ وتفاصيل تناسب الزوايا الهادية في البيت</p>
+                        <p class="price">180 <span>ريال</span></p>
+                        <a href="#price-calculator" class="product-link" onclick="chooseProduct('vase-clay')">احسبي سعر القطعة</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="calculator-section" id="price-calculator" aria-labelledby="calculator-title">
+            <div class="container calculator-layout">
+                <div class="calculator-copy">
+                    <p class="eyebrow">اختيارك صار أوضح</p>
+                    <h2 id="calculator-title">قطعة أو أكثر<br><span>احسبيها هنا</span></h2>
+                    <p>اختاري المنتج وحددي الكمية<br>وتطلع لك قيمة القطع بالريال السعودي</p>
+                    <p class="small-note">الحساب لقيمة المنتجات فقط ولا يشمل رسوم التوصيل</p>
+                </div>
+                <form class="calculator-form" onsubmit="return calculatePrice()" novalidate>
+                    <label for="pottery-product">القطعة</label>
+                    <select id="pottery-product" name="product">
+                        <option value="cups">طقم أكواب بألوان طبيعية — 150 ريال</option>
+                        <option value="vase-cream">مزهرية كريمية بعروتين — 220 ريال</option>
+                        <option value="vase-clay">مزهرية بلون الطين — 180 ريال</option>
+                    </select>
+                    <label for="pottery-quantity">عدد القطع</label>
+                    <input type="text" id="pottery-quantity" name="quantity" value="1" inputmode="numeric" maxlength="3" aria-describedby="quantity-help">
+                    <p id="quantity-help" class="field-help">اكتبي عدد صحيح من 1 إلى 20</p>
+                    <button type="submit" class="button">احسبي الإجمالي</button>
+                    <div class="result" role="status" aria-live="polite">
+                        <p class="result-label">قيمة القطع</p>
+                        <p id="pottery-total">اختاري الكمية وابدئي الحساب</p>
+                        <p id="pottery-breakdown"></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="care container" aria-labelledby="care-title">
+            <div class="section-heading">
+                <p class="eyebrow">تبقى حلوة مع العناية</p>
+                <h2 id="care-title">اهتمي بتفاصيل قطعتك</h2>
+            </div>
+            <ul class="care-list">
+                <li><h3>تنظيف لطيف</h3><p>استخدمي إسفنجة ناعمة وجففي القطعة بعد الغسل</p></li>
+                <li><h3>حماية من الصدمات</h3><p>حطي القطعة على سطح ثابت وتجنبي اصطدامها بالأدوات الثانية</p></li>
+                <li><h3>اتبعي تعليمات القطعة</h3><p>تأكدي من الحرفي عن ملاءمتها للطعام والحرارة وغسالة الصحون</p></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-brand">أثر</p>
+            <p>كل قطعة تحكي حكاية</p>
+            <ul>
+                <li><a href="https://hamshamad11-tech.github.io/Project-/">عن أثر</a></li>
+                <li><a href="https://reem99-10.github.io/Products/">بقية المنتجات</a></li>
+                <li><a href="#main">أعلى الصفحة</a></li>
+            </ul>
+            <p class="copyright">أثر للحرف اليدوية © 2026</p>
+        </div>
+    </footer>
+    <script src="pottery.js"></script>
+</body>
+</html>
